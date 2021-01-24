@@ -1,0 +1,986 @@
+{
+  "tinker:FirstDrone": {
+    "NAME": "First Drone",
+    "FLAVOR": "The first drone you ever constructed. Certainly not near the last.",
+    "DESCRIPTIONS": [
+      "#pPassive: Deal #b1 damage to a random enemy and gain #b1 #yBlock."
+    ]
+  },
+  "tinker:MultiTool": {
+    "NAME": "Multi-tool",
+    "FLAVOR": "A tiny, helpful bundle of tricks.",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b",
+      " damage and gain #b",
+      " #yBlock. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:SnapGuard": {
+    "NAME": "Snap-Guard",
+    "FLAVOR": "Out and ready in a flash!",
+    "DESCRIPTIONS": [
+      "#pActivate: Gain #b",
+      " #yBlock. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:SwordLauncher": {
+    "NAME": "Sword Launcher",
+    "FLAVOR": "Especially helpful in simple combat.",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b",
+      " damage to the frontmost enemy. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:SuppressionSpray": {
+    "NAME": "Suppression Spray",
+    "FLAVOR": "Competitor to Louse-B-Gone.",
+    "DESCRIPTIONS": [
+      "#pActivate: Apply #b1 #yWeak. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Bombinator": {
+    "NAME": "Bombinator",
+    "FLAVOR": "Emergency use only.",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b10 damage to ALL enemies. #b3 #rCharges."
+    ]
+  },
+  "tinker:MiniTazer": {
+    "NAME": "Mini Tazer",
+    "FLAVOR": "Tastes electrifying.",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b",
+      " damage. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:PortableCannonball": {
+    "NAME": "Portable Cannonball",
+    "FLAVOR": "More of a WHUNK than a WHAM.",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b",
+      " damage to the backmost enemy. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Spraygun": {
+    "NAME": "Spraygun",
+    "FLAVOR": "But does it spray water ... or bullets!?",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b",
+      " damage to ALL enemies. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:GasCloud": {
+    "NAME": "Gas Cloud",
+    "FLAVOR": "One breath... and it's over.",
+    "DESCRIPTIONS": [
+      "#pActivate: Apply #b",
+      " #yPoison to a random enemy. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:WheatBran": {
+    "NAME": "Wheat-Bran",
+    "FLAVOR": "Delicious! Good for your heart!",
+    "DESCRIPTIONS": [
+      "#pActivate: Gain #b",
+      " #yTemporary #yHP. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:ShieldOTron": {
+    "NAME": "Shield-O-Tron",
+    "FLAVOR": "Provides armor upon request.",
+    "DESCRIPTIONS": [
+      "#pActivate: Gain #b",
+      " #yBlock. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:HeavyMedal": {
+    "NAME": "Heavy Medal",
+    "FLAVOR": "Quite small, but still heavy.",
+    "DESCRIPTIONS": [
+      "#pActivate: Gain #b",
+      " #yBlock. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Handgun": {
+    "NAME": "Handgun",
+    "FLAVOR": "But where's the key?",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b",
+      " damage to a random enemy. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:DazeBomb": {
+    "NAME": "Daze Bomb",
+    "FLAVOR": "Confusingly catastrophic!",
+    "DESCRIPTIONS": [
+      "#pActivate: ALL enemies lose #b",
+      " #yStrength this turn. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:LouseBGone": {
+    "NAME": "Louse-B-Gone",
+    "FLAVOR": "Got a Louse in your house? No problem.",
+    "DESCRIPTIONS": [
+      "#pActivate: Apply #b1 #yWeak to ALL enemies. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:WindUpper": {
+    "NAME": "Wind-Upper",
+    "FLAVOR": "As opposed to the box-jacker.",
+    "DESCRIPTIONS": [
+      "#pActivate: Reduce the #rCooldown of the #yTool on the lowest #rCooldown by #b1. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Resettear": {
+    "NAME": "Resettear",
+    "FLAVOR": "Resets like crazy.",
+    "DESCRIPTIONS": [
+      "#pActivate: Reset the #rCooldown of a random #yTool on #rCooldown. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:DroneFeeder": {
+    "NAME": "Drone Feeder",
+    "FLAVOR": "Flavor is mainly nuts and bolts.",
+    "DESCRIPTIONS": [
+      "#pActivate: Trigger the #pPassive ability of a random held #yDrone. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:DroneSlot": {
+    "NAME": "Drone Slot",
+    "FLAVOR": "Fits any drone-type.",
+    "DESCRIPTIONS": [
+      "Drones are held in these slots."
+    ]
+  },
+  "tinker:BeamDrone": {
+    "NAME": "Beam Drone",
+    "FLAVOR": "Bzzap! A dependable offensive ally.",
+    "DESCRIPTIONS": [
+      "#pPassive: Deal #b5 damage to a random enemy."
+    ]
+  },
+  "tinker:ScienceDrone": {
+    "NAME": "Science Drone",
+    "FLAVOR": "An invaluable adviser.",
+    "DESCRIPTIONS": [
+      "#pPassive: Reduce the #rCooldown of a random #yTool on #rCooldown by #b1."
+    ]
+  },
+  "tinker:GuardDrone": {
+    "NAME": "Guard Drone",
+    "FLAVOR": "To serve, and protect.",
+    "DESCRIPTIONS": [
+      "#pPassive: Gain #b2 #yBlock."
+    ]
+  },
+  "tinker:FlameDrone": {
+    "NAME": "Flame Drone",
+    "FLAVOR": "Liable to overheat.",
+    "DESCRIPTIONS": [
+      "#pPassive: Deal #b3 damage to ALL enemies."
+    ]
+  },
+  "tinker:SwordDrone": {
+    "NAME": "Sword Drone",
+    "FLAVOR": "A drone, for swording.",
+    "DESCRIPTIONS": [
+      "#pPassive: Deal #b3 damage to the frontmost enemy."
+    ]
+  },
+  "tinker:PesterDrone": {
+    "NAME": "Pester Drone",
+    "FLAVOR": "The most annoying drone known.",
+    "DESCRIPTIONS": [
+      "#pPassive: A random enemy loses #b1 #yStrength this turn."
+    ]
+  },
+  "tinker:FighterDrone": {
+    "NAME": "Fighter Drone",
+    "FLAVOR": "Basic combat AI.",
+    "DESCRIPTIONS": [
+      "#pPassive: Alternates between gaining #b3 #yBlock and dealing #b3 damage to ALL enemies."
+    ]
+  },
+  "tinker:AllRoundDrone": {
+    "NAME": "All-Round Drone",
+    "FLAVOR": "Simple and effective. Useful no matter what.",
+    "DESCRIPTIONS": [
+      "#pPassive: Deal #b1 damage to a random enemy. Gain #b1 #yBlock. Reduce the #rCooldown of a random #yTool on #rCooldown by #b1."
+    ]
+  },
+  "tinker:GoldenDrone": {
+    "NAME": "Golden Drone",
+    "FLAVOR": "Gold is ineffective for combat purposes.",
+    "DESCRIPTIONS": [
+      "Whenever an enemy dies, gain #b5 Gold. NL #pPassive: Deal #b1 damage to a random enemy."
+    ]
+  },
+  "tinker:BolsterDrone": {
+    "NAME": "Bolster Drone",
+    "FLAVOR": "Helps boost your defensive capabilities.",
+    "DESCRIPTIONS": [
+      "#pPassive: Gain #b1 #yTemporary_HP."
+    ]
+  },
+  "tinker:MirrorDrone": {
+    "NAME": "Mirror Drone",
+    "FLAVOR": "A unique drone enord euqinu A",
+    "DESCRIPTIONS": [
+      "Whenever you receive attack damage, deal #b50% of that damage back. #pPassive: Gain #b1 #yBlock."
+    ]
+  },
+  "tinker:MimicDrone": {
+    "NAME": "Mimic Drone",
+    "FLAVOR": "Hey, this isn't a drone at all!",
+    "DESCRIPTIONS": [
+      "#pPassive: Copies the #pPassive of a random held #yDrone."
+    ]
+  },
+  "tinker:PocketSand": {
+    "NAME": "Pocket Sand",
+    "FLAVOR": "MY EYES!!!",
+    "DESCRIPTIONS": [
+      "#pActivate: Stun the enemy for #b1 turn. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Cannoninator": {
+    "NAME": "Cannon-inator",
+    "FLAVOR": "1...2...3... BLAM!",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b15 damage to the backmost enemy. #b3 #rCharges."
+    ]
+  },
+  "tinker:Confusionator": {
+    "NAME": "Confusionator",
+    "FLAVOR": "What was I doing again? Intending to attack?",
+    "DESCRIPTIONS": [
+      "#pActivate: Apply #b2 #yWeak to ALL enemies. #b3 #rCharges."
+    ]
+  },
+  "tinker:Defensinator": {
+    "NAME": "Defensinator",
+    "FLAVOR": "You shall never pierce my defenses now! Bwahaha!",
+    "DESCRIPTIONS": [
+      "#pActivate: Gain #b8 #yBlock. #b3 #rCharges."
+    ]
+  },
+  "tinker:IronWavinator": {
+    "NAME": "Iron-Wavinator",
+    "FLAVOR": "An immense amount of mean output!',",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b5 damage. Gain #b5 #yBlock. #b6 #rCharges."
+    ]
+  },
+  "tinker:Neurotoxinator": {
+    "NAME": "Neurotoxinator",
+    "FLAVOR": "The 'deadly' was in massive sarcasm quotes.",
+    "DESCRIPTIONS": [
+      "#pActivate: Apply #b5 #yPoison to ALL enemies. #b3 #rCharges."
+    ]
+  },
+  "tinker:SadnessSpray": {
+    "NAME": "Sadness Spray",
+    "FLAVOR": "Add a dash of sadness to your life with three easy payments!",
+    "DESCRIPTIONS": [
+      "#pActivate: Enemy loses #b",
+      " #yStrength this turn. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:DroneDJ": {
+    "NAME": "Drone DJ",
+    "FLAVOR": "Just the guy to keep your Drones feeling peppy.",
+    "DESCRIPTIONS": [
+      "#pActivate: Trigger the #pPassive abilities of your #yDrones. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Adapter": {
+    "NAME": "Adapter",
+    "FLAVOR": "Supports Lightning and USB-3.",
+    "DESCRIPTIONS": [
+      "#pActivate: Give a random #yMachine #b1 additional #rCharge. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Buffinator": {
+    "NAME": "Buffinator",
+    "FLAVOR": "No, not the scaling kind.",
+    "DESCRIPTIONS": [
+      "#pActivate: Gain #b8 #yTemporary_HP. #b3 #rCharges."
+    ]
+  },
+  "tinker:Debuffinator": {
+    "NAME": "Debuffinator",
+    "FLAVOR": "Yes, the unscaling kind.",
+    "DESCRIPTIONS": [
+      "#pActivate: ALL enemies lose #b1 #yStrength. #b3 #rCharges."
+    ]
+  },
+  "tinker:DroneCharginator": {
+    "NAME": "Drone-Charge-inator",
+    "FLAVOR": "A ridiculous yet suitable name.",
+    "DESCRIPTIONS": [
+      "#pActivate: Trigger the #pPassive abilities of your #yDrones. #b5 #rCharges."
+    ]
+  },
+  "tinker:EmergencyShieldinator": {
+    "NAME": "Emergency Shieldinator",
+    "FLAVOR": "FOR EMERGENCIES ONLY",
+    "DESCRIPTIONS": [
+      "#pActivate: Gain #b1 #yIntangible. #b3 #rCharges."
+    ]
+  },
+  "tinker:CripplerDrone": {
+    "NAME": "Crippler Drone",
+    "FLAVOR": "Spams Leg Sweep with reckless abandon.",
+    "DESCRIPTIONS": [
+      "#pPassive: Apply #b1 #yWeak to a random enemy."
+    ]
+  },
+  "tinker:Recharginator": {
+    "NAME": "Recharginator",
+    "FLAVOR": "The solution to all our energy problems! Not Energy problems, though.",
+    "DESCRIPTIONS": [
+      "#pActivate: Reset the #rCooldown of your #yTools. #b4 #yCharges."
+    ]
+  },
+  "tinker:PreventionDrone": {
+    "NAME": "Prevention Drone",
+    "FLAVOR": "Blood Vial tech meets a defensive core!",
+    "DESCRIPTIONS": [
+      "Start each combat with #b2 #yTemporary_HP. #pPassive: Gain #b1 #yBlock."
+    ]
+  },
+  "tinker:FighterDrone2": {
+    "NAME": "Fighter Drone Mk. II",
+    "FLAVOR": "Not a direct improvement on Fighter Drone...",
+    "DESCRIPTIONS": [
+      "#pPassive: Alternates between gaining #b2 #yTemporary_HP and applying #b2 #yPoison to a random enemy."
+    ]
+  },
+  "tinker:ClericDrone": {
+    "NAME": "Cleric Drone",
+    "FLAVOR": "No debuff clearing? Not a good Cleric.",
+    "DESCRIPTIONS": [
+      "At the end of combat, raise your Max HP by #b1. #pPassive: Deal #b1 damage to a random enemy."
+    ]
+  },
+  "tinker:FingerOfDeathDrone": {
+    "NAME": "Finger-O-Death Drone",
+    "FLAVOR": "Shockingly effective!",
+    "DESCRIPTIONS": [
+      "Start each combat with #b4 #yTemporary_HP. #pPassive: Deal damage equal to your #yTemporary_HP to a random enemy."
+    ]
+  },
+  "tinker:WaiterDrone": {
+    "NAME": "Waiter Drone",
+    "FLAVOR": "Not tables, just Cooldowns.",
+    "DESCRIPTIONS": [
+      "#pPassive: Gain #b2 #yBlock."
+    ]
+  },
+  "tinker:Reducer": {
+    "NAME": "Reducer",
+    "FLAVOR": "Simple yet effective.",
+    "DESCRIPTIONS": [
+      "#pActivate: Reduce the #rCooldown of a random #yTool on #rCooldown by #b2. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Bedazzler": {
+    "NAME": "Bedazzler",
+    "FLAVOR": "As opposed to the Gem Gun.",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b",
+      "damage. Apply #b2 #yWeak. #rCooldown #b",
+      ".",
+      "damage. Apply #b1 #yWeak. #rCooldown #b"
+    ]
+  },
+  "tinker:ThroneOfDoom": {
+    "NAME": "Throne of Doom",
+    "FLAVOR": "Not very throne-y.",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b",
+      " damage. Reduce this tool's #rCooldown by #b1 this combat. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Megabuffer": {
+    "NAME": "Megabuffer",
+    "FLAVOR": "Alternatively, you could have 1 Artifact right now.",
+    "DESCRIPTIONS": [
+      "#pActivate: Reduce the base #rCooldown of a random #yTool by #b1 this combat. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:MimicTool": {
+    "NAME": "Mimic Tool",
+    "FLAVOR": "But the sticky note says 'NOT A MIMIC'!",
+    "DESCRIPTIONS": [
+      "#pActivate: Copies the #pActivate of a random held #yTool. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Hecklinator": {
+    "NAME": "Hecklinator",
+    "FLAVOR": "BOO! BOO! YOU MAKE MY PARTS ACHE!",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b5 damage. Apply #b1 #yWeak. #b4 #rCharges."
+    ]
+  },
+  "tinker:Resetinator": {
+    "NAME": "Resetinator",
+    "FLAVOR": "More like Rebootinator.",
+    "DESCRIPTIONS": [
+      "#pActivate: Reset the #rCooldown of a random #yTool on #rCooldown. #b4 #rCharges."
+    ]
+  },
+  "tinker:Goldinator": {
+    "NAME": "Goldinator",
+    "FLAVOR": "B-but gold is truly a very soft metal!",
+    "DESCRIPTIONS": [
+      "#pActivate: Gain #b10 Gold. Deal #b10 damage. #b4 #rCharges."
+    ]
+  },
+  "tinker:Energinator": {
+    "NAME": "Energinator",
+    "FLAVOR": "I'm on the outsiiide now.",
+    "DESCRIPTIONS": [
+      "#pActivate: Reduce the #rCooldown of your #yTools on #rCooldown by #b1. #b3 #rCharges."
+    ]
+  },
+  "tinker:CurseLauncher": {
+    "NAME": "Curse Launcher",
+    "FLAVOR": "We don't do that bestowing thing here.",
+    "DESCRIPTIONS": [
+      "#pActivate: Enemy takes #b",
+      " damage at the end of each of its turns. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:CrackedCore": {
+    "NAME": "Cracked Core???",
+    "FLAVOR": "Pillaged this off some defective wreck. Ha!",
+    "DESCRIPTIONS": [
+      "Start each combat with #b3 Orb slots. #pActivate: #yChannel #b1 #yLightning. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Tanglinator": {
+    "NAME": "Tanglinator",
+    "FLAVOR": "Augh, it's all over me!",
+    "DESCRIPTIONS": [
+      "#pActivate: Enemy takes #b4 damage at the end of each of its turns. #b5 #rCharges."
+    ]
+  },
+  "tinker:DroneBlastinator": {
+    "NAME": "Drone-blast-inator",
+    "FLAVOR": "I should phone security!",
+    "DESCRIPTIONS": [
+      "#pActivate: Trigger the #pPassive abilities of your #yDrones #b2 times. #b3 #rCharges."
+    ]
+  },
+  "tinker:MimicMachine": {
+    "NAME": "Mimic Machine",
+    "FLAVOR": "Gross, it's slimy!",
+    "DESCRIPTIONS": [
+      "#pActivate: Copies the #pActivate of a random held #yMachine. #b5 #rCharges."
+    ]
+  },
+  "tinker:TechieDrone": {
+    "NAME": "Techie Drone",
+    "FLAVOR": "Can you come over? I accidentally installed a toolbar!",
+    "DESCRIPTIONS": [
+      "#pPassive: Reduce the #rCooldown of the #yTool on the highest #rCooldown by #b2."
+    ]
+  },
+  "tinker:Blastinator": {
+    "NAME": "Blastinator",
+    "FLAVOR": "Blast awaaaay!",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b12 damage. #b3 #rCharges."
+    ]
+  },
+  "tinker:Reductionator": {
+    "NAME": "Reductionator",
+    "FLAVOR": "A reduction in attack power, okay!?",
+    "DESCRIPTIONS": [
+      "#pActivate: Enemy loses #b3 #yStrength this turn. #b4 #rCharges."
+    ]
+  },
+  "tinker:Megacharginator": {
+    "NAME": "Megacharginator",
+    "FLAVOR": "Damage and boosting? Count me in.",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b7 damage. Reduce the #rCooldown of a random #yTool on #rCooldown by #b1. #b4 #rCharges."
+    ]
+  },
+  "tinker:Whackaball": {
+    "NAME": "Whackaball",
+    "FLAVOR": "Spikes and spinning and chains, oh my!",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b",
+      " damage, increased by #b2 for each stack of Weak the enemy has. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Punchometer": {
+    "NAME": "Punchometer",
+    "FLAVOR": "Bif! Baf! Boof.",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b",
+      " damage and apply #b1 #yWeak to the frontmost enemy. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:SecondDrone": {
+    "NAME": "Second Drone",
+    "FLAVOR": "A basic design outlined and executed well. An improvement on First Drone.",
+    "DESCRIPTIONS": [
+      "#pPassive: Deal #b2 damage to a random enemy and gain #b1 #yBlock."
+    ]
+  },
+  "tinker:ConstrictionDrone": {
+    "NAME": "Constrictor Drone",
+    "FLAVOR": "Long arms squeeze and entangle. Exemplary!",
+    "DESCRIPTIONS": [
+      "#pPassive: Frontmost enemy takes #b1 damage at the end of each of its turns."
+    ]
+  },
+  "tinker:ShieldDrone": {
+    "NAME": "Shield Drone",
+    "FLAVOR": "First Drone with a shield attached. Incredible.",
+    "DESCRIPTIONS": [
+      "Reduce all your HP loss by #b1. #pPassive: Deal #b1 damage to a random enemy."
+    ]
+  },
+  "tinker:GemGun": {
+    "NAME": "Gem Gun",
+    "FLAVOR": "A bejeweled weapon...",
+    "DESCRIPTIONS": [
+      "The first time you #pActivate this each combat, gain #b",
+      " Gold. #pActivate: Deal #b",
+      " damage. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Optimizinator": {
+    "NAME": "Optimizinator",
+    "FLAVOR": "Perfect for data enthusiasts.",
+    "DESCRIPTIONS": [
+      "#pActivate: Reduce the base #rCooldown of a random #yTool by #b1 this combat. #b4 #rCharges."
+    ]
+  },
+  "tinker:Debuffpowinator": {
+    "NAME": "Debuff-Pow-Inator",
+    "FLAVOR": "Debuff em, then POW!",
+    "DESCRIPTIONS": [
+      "#pActivate: Apply #b1 #yWeak to ALL enemies. Reduce the #rCooldown of a random #yTool on #rCooldown by #b1. #b5 #rCharges."
+    ]
+  },
+  "tinker:BombDrone": {
+    "NAME": "Bomb Drone",
+    "FLAVOR": "More of a piercing weapon drone.",
+    "DESCRIPTIONS": [
+      "#pPassive: Deal #b2 damage to the frontmost enemy. Deal #b1 damage to ALL enemies."
+    ]
+  },
+  "tinker:ScrapperDrone": {
+    "NAME": "Scrapper Drone",
+    "FLAVOR": "All too eager to dismantle former comrades...",
+    "DESCRIPTIONS": [
+      "Whenever you #yScrap, gain an additional #b50 Gold. #pPassive: Deal #b1 damage to ALL enemies."
+    ]
+  },
+  "tinker:StrikerDrone": {
+    "NAME": "First-Striker Drone",
+    "FLAVOR": "Aww yeah, get the drop on 'em!",
+    "DESCRIPTIONS": [
+      "At the start of each combat, deal #b8 damage to ALL enemies. #pPassive: Deal #b2 damage to the frontmost enemy."
+    ]
+  },
+  "tinker:CheerleaderDrone": {
+    "NAME": "Cheerleader Drone",
+    "FLAVOR": "Please no fanart.",
+    "DESCRIPTIONS": [
+      "Whenever you #pActivate a #yTool, gain #b1 #yBlock. #pPassive: Gain #b1 #yBlock."
+    ]
+  },
+  "tinker:AnchorDrone": {
+    "NAME": "Anchor Drone",
+    "FLAVOR": "But why does it carry this anchor!?",
+    "DESCRIPTIONS": [
+      "Start each combat with #b5 #yBlock. #pPassive: Deal #b1 damage to a random enemy."
+    ]
+  },
+  "tinker:Crashinator": {
+    "NAME": "Crashinator",
+    "FLAVOR": "From a past age.",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b8 damage. Deal #b8 damage to ALL enemies. #b3 #rCharges."
+    ]
+  },
+  "tinker:RefreshmentDrone": {
+    "NAME": "Refreshment Drone",
+    "FLAVOR": "Mmm, soda! Just what I was looking for.",
+    "DESCRIPTIONS": [
+      "Whenever you enter a #yRest #ySite, raise your Max HP by #b2. #pPassive: Deal #b2 damage to a random enemy."
+    ]
+  },
+  "tinker:ChargerDrone": {
+    "NAME": "Charger Drone",
+    "FLAVOR": "Plugging in and CCHARGIN UP!!!",
+    "DESCRIPTIONS": [
+      "Whenever you enter a #yRest #ySite, reset the #rCooldown of your #yTools. #pPassive: Deal #b1 damage to the frontmost enemy."
+    ]
+  },
+  "tinker:BoosterDrone": {
+    "NAME": "Booster Drone",
+    "FLAVOR": "A plug allows this Drone to interface with Machines.",
+    "DESCRIPTIONS": [
+      "Whenever you enter a #yRest #ySite, give a random held #yMachine #b1 additional #rCharge. #pPassive: Deal damage to a random enemy equal to the number of held #yMachines with #b0 #rCharges."
+    ]
+  },
+  "tinker:GravityLauncher": {
+    "NAME": "Gravity Launcher",
+    "FLAVOR": "A rather bardic invention.",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b",
+      " damage and apply #b2 #yWeak to ALL enemies. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Coolinator": {
+    "NAME": "Coolinator",
+    "FLAVOR": "Mr. Freeze, no!",
+    "DESCRIPTIONS": [
+      "#pActivate: Reduce the base #rCooldown of your #yTools by #b1 this combat. #b2 #rCharges."
+    ]
+  },
+  "tinker:Phylactinator": {
+    "NAME": "Phylactinator",
+    "FLAVOR": "Soul-lockin, and totally hip!",
+    "DESCRIPTIONS": [
+      "Whenever you would receive lethal damage, if this has #rCharges, this loses #rCharges instead. #pActivate: Deal #b2 damage. #b15 #rCharges."
+    ]
+  },
+  "tinker:Orbinator": {
+    "NAME": "Orbinator",
+    "FLAVOR": "Not an Orbitater.",
+    "DESCRIPTIONS": [
+      "Start each combat with #b3 Orb slots. #pActivate: #yChannel #b1 #yLightning and #b1 #yFrost. #b4 #rCharges."
+    ]
+  },
+  "tinker:GoldTossinator": {
+    "NAME": "Gold Tossinator",
+    "FLAVOR": "Wasteful yet incredibly effective.",
+    "DESCRIPTIONS": [
+      "#pActivate: Lose #b24 Gold. Deal #b12 damage to ALL enemies. #b8 #rCharges."
+    ]
+  },
+  "tinker:Drainotron": {
+    "NAME": "Drain-o-tron",
+    "FLAVOR": "Deeply offensive.",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b",
+      " damage. Gain #b",
+      " #yTemporary_HP. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:ThornDrone": {
+    "NAME": "Thorny Drone",
+    "FLAVOR": "A spiked defensive and offensive trooper.",
+    "DESCRIPTIONS": [
+      "Start each combat with #b2 #yThorns. #pPassive: Deal #b1 damage to a random enemy."
+    ]
+  },
+  "tinker:Sapper": {
+    "NAME": "Sapper",
+    "FLAVOR": "It's so... hard to walk...",
+    "DESCRIPTIONS": [
+      "#pActivate: Enemy loses #b1 #yStrength. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:LifeTapper": {
+    "NAME": "Life Tapper",
+    "FLAVOR": "Taps anything... except enchantments.",
+    "DESCRIPTIONS": [
+      "#pActivate: Lose #b",
+      " Max HP. Deal #b20 damage. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:TheRealCannon": {
+    "NAME": "The Real Cannon",
+    "FLAVOR": "BOOOOOOM!",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b",
+      " damage to ALL enemies. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:GhostSuit": {
+    "NAME": "Ghost Suit",
+    "FLAVOR": "Ooooo, spooky.",
+    "DESCRIPTIONS": [
+      "#pActivate: Gain #b1 #yIntangible. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:SafeReactor": {
+    "NAME": "Safe Nuclear Reactor",
+    "FLAVOR": "Among the unicorns.",
+    "DESCRIPTIONS": [
+      "#pActivate: Reset the #rCooldown of your other #yTools. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:MachineNecklace": {
+    "NAME": "Tezzeret's Necklace",
+    "FLAVOR": "Who owned this?",
+    "DESCRIPTIONS": [
+      "#pActivate: Give your #yMachines #b1 additional #rCharge. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:ImmortalArmor": {
+    "NAME": "Immortal Armor",
+    "FLAVOR": "I am INVINCIBLE! After 12 turns.",
+    "DESCRIPTIONS": [
+      "When you would die, if this is not on #rCooldown, put it on #rCooldown and heal to #b1 HP instead. #pActivate: Gain #b5 #yBlock. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:Smokinator": {
+    "NAME": "Smokinator",
+    "FLAVOR": "Poof! I'm gone.",
+    "DESCRIPTIONS": [
+      "#pActivate: Escape from a non-boss combat. Receive no rewards. #b2 #rCharges."
+    ]
+  },
+  "tinker:Sandblastinator": {
+    "NAME": "Sand-blast-inator",
+    "FLAVOR": "Pocket sand without the pocket.",
+    "DESCRIPTIONS": [
+      "#pActivate: Stun a random enemy for #b1 turn. #b2 #rCharges."
+    ]
+  },
+  "tinker:Amongator": {
+    "NAME": "Amongator",
+    "FLAVOR": "We are all among the gator.",
+    "DESCRIPTIONS": [
+      "#pActivate: Trigger a random #yTool, #yDrone, and other #yMachine. #b3 #rCharges."
+    ]
+  },
+  "tinker:PlatedArminator": {
+    "NAME": "Plated Arminator",
+    "FLAVOR": "Newfangled tech! Not as strong as a pen and needle.",
+    "DESCRIPTIONS": [
+      "#pActivate: Gain #b2 Plated Armor. #b4 #rCharges."
+    ]
+  },
+  "tinker:LastResortinator": {
+    "NAME": "Last Resortinator",
+    "FLAVOR": "Anomalous and dangerous.",
+    "DESCRIPTIONS": [
+      "#pActivate: Does something. #b6 #rCharges."
+    ]
+  },
+  "tinker:Stuninator": {
+    "NAME": "Stuninator",
+    "FLAVOR": "Almost named Power Word: Stuninator.",
+    "DESCRIPTIONS": [
+      "#pActivate: Stun the enemy for #b1 turn. #b3 #rCharges."
+    ]
+  },
+  "tinker:MachineKing": {
+    "NAME": "Machine King",
+    "FLAVOR": "Lord of the Inators.",
+    "DESCRIPTIONS": [
+      "#pActivate: Give your other #yMachines #b1 additional charge. #b2 #rCharges."
+    ]
+  },
+  "tinker:DamageBlockinator": {
+    "NAME": "Damage-Blockinator",
+    "FLAVOR": "Isn't that what we all are?",
+    "DESCRIPTIONS": [
+      "#pActivate: Gain #b10 #yBlock. Deal #b10 damage. #b10 #rCharges."
+    ]
+  },
+  "tinker:Deheatinator": {
+    "NAME": "Deheatinator",
+    "FLAVOR": "Cooling down. Dooling cown...",
+    "DESCRIPTIONS": [
+      "#pActivate: Reduce the #rCooldown of a random #yTool on #rCooldown by #b1. #b15 #rCharges."
+    ]
+  },
+  "tinker:CourierDrone": {
+    "NAME": "Courier Drone",
+    "FLAVOR": "No PLATINUM CHIP detected.",
+    "DESCRIPTIONS": [
+      "You can carry #b1 additional #yTool, #yMachine, and #yDrone. #pPassive: Deal #b1 damage to a random enemy."
+    ]
+  },
+  "tinker:MastermindDrone": {
+    "NAME": "Mastermind Drone",
+    "FLAVOR": "More of an idle game kind of Drone.",
+    "DESCRIPTIONS": [
+      "#pPassive: Reduce the #rCooldown of #b2 random #yTools on #rCooldown by #b1, then #yActivate ALL usable #yTools."
+    ]
+  },
+  "tinker:RechargerDrone": {
+    "NAME": "Recharger Drone",
+    "FLAVOR": "What a cutie!",
+    "DESCRIPTIONS": [
+      "Whenever you #yRecharge a #yMachine, it gains #b1 additional #rCharge. #pPassive: Gain #b1 #yBlock."
+    ]
+  },
+  "tinker:GuardianDrone": {
+    "NAME": "Guardian Drone",
+    "FLAVOR": "SO USEFUL... or is it?",
+    "DESCRIPTIONS": [
+      "#pPassive: Gain #b1 #yArtifact."
+    ]
+  },
+  "tinker:HunterDrone": {
+    "NAME": "Treasure Hunter Drone",
+    "FLAVOR": "The HP loss is from rolling boulder traps.",
+    "DESCRIPTIONS": [
+      "Combats contain #b10 more Gold. #pPassive: Deal #b2 damage to a random enemy."
+    ]
+  },
+  "tinker:DroneLeader": {
+    "NAME": "Drone Leader",
+    "FLAVOR": "Typically relaxes in a hoard.",
+    "DESCRIPTIONS": [
+      "You can carry #b1 additional #yDrone. #pPassive: Trigger the #pPassive abilities of your other #yDrones."
+    ]
+  },
+  "tinker:ToolmasterDrone": {
+    "NAME": "Toolmaster Drone",
+    "FLAVOR": "Alas, if only I could be a tool too...",
+    "DESCRIPTIONS": [
+      "At the start of each combat, reduce the base #rCooldown of your #yTools by #b1. #pPassive: None."
+    ]
+  },
+  "tinker:MachineNecromancerDrone": {
+    "NAME": "Machine Necromancer Drone",
+    "FLAVOR": "Gesundheit!",
+    "DESCRIPTIONS": [
+      "#pPassive: #yActivate a random #yMachine."
+    ]
+  },
+  "tinker:HoarderDrone": {
+    "NAME": "Hoarder Drone",
+    "FLAVOR": "NEEDS MORE BOLTS",
+    "DESCRIPTIONS": [
+      "You can carry #b2 additional #yTools, #yMachines, and #yDrones. #pPassive: Deal #b1 damage to a random enemy."
+    ]
+  },
+  "tinker:Toxidrone": {
+    "NAME": "Toxidrone",
+    "FLAVOR": "I wassss the true Firssst Drone... and I shall be... the lassst...",
+    "DESCRIPTIONS": [
+      "#pPassive: Apply #b2 #yPoison to ALL enemies."
+    ]
+  },
+  "tinker:CardPirater": {
+    "NAME": "Card Pirater",
+    "FLAVOR": "Ha, totally stole that idea!",
+    "DESCRIPTIONS": [
+      "#pActivate: Add a #yStolen #yCard into your hand. #rCooldown #b",
+      ".",
+      "#pActivate: Add an #yUpgraded #yStolen #yCard into your hand. #rCooldown #b"
+    ]
+  },
+  "tinker:CardGenerationator": {
+    "NAME": "Card Generationator",
+    "FLAVOR": "Offers 50 flavors of Strike and Defend!",
+    "DESCRIPTIONS": [
+      "#pActivate: Add a #yStolen #yCard into your hand. #b4 #rCharges."
+    ]
+  },
+  "tinker:BoostedPrinter": {
+    "NAME": "Overcharged Printer",
+    "FLAVOR": "Slap one Infernal Forge on and...",
+    "DESCRIPTIONS": [
+      "#pActivate: Add an #yUpgraded #yStolen #yCard into your hand. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:UpgradedCardinator": {
+    "NAME": "Upgraded Cardinator",
+    "FLAVOR": "A tiny Ironclad Smiths endlessly within.",
+    "DESCRIPTIONS": [
+      "#pActivate: Add an #yUpgraded #yStolen #yCard into your hand. #b5 #rCharges."
+    ]
+  },
+  "tinker:DualCardinator": {
+    "NAME": "Dual Cardinator",
+    "FLAVOR": "Double the cards, half the power.",
+    "DESCRIPTIONS": [
+      "#pActivate: Add #b2 #yStolen #yCards into your hand. #b4 #rCharges."
+    ]
+  },
+  "tinker:FighterDrone3": {
+    "NAME": "Fighter Drone Mk. III",
+    "FLAVOR": "The final iteration of Fighter Drone.",
+    "DESCRIPTIONS": [
+      "#pPassive: Alternates between adding a #yStolen #yCard into your hand and reducing an enemy's #yStrength by #b2 this turn."
+    ]
+  },
+  "tinker:CardBlaster": {
+    "NAME": "Card Blaster",
+    "FLAVOR": "Utilized in Showman tricks infrequently.",
+    "DESCRIPTIONS": [
+      "#pActivate: Deal #b",
+      " damage. Add a #yStolen #yCard into your hand. #rCooldown #b",
+      " damage. Add an #yUpgraded #yStolen #yCard into your hand. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:TwoHandedWheel": {
+    "NAME": "Two Handed Wheel",
+    "FLAVOR": "Whoa, how do you drive this?",
+    "DESCRIPTIONS": [
+      "#pActivate: Add #b2 #yStolen #yCards into your hand. #rCooldown #b",
+      "."
+    ]
+  },
+  "tinker:TopTierCardinator": {
+    "NAME": "Top Tier Cardinator",
+    "FLAVOR": "Ban and nerf incoming.",
+    "DESCRIPTIONS": [
+      "#pActivate: Add #b2 #yUpgraded #yStolen #yCards into your hand. #b5 #rCharges."
+    ]
+  },
+  "tinker:CollectorDrone": {
+    "NAME": "Collector Drone",
+    "FLAVOR": "The Last Drone.",
+    "DESCRIPTIONS": [
+      "#pPassive: Add a #yStolen #yCard into your hand."
+    ]
+  }
+}
